@@ -1,0 +1,79 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.bgimg{background-image: url(../img/laptop-table-office-room-window-city-background_2034-528.png );
+    background-size:cover;height:100vh;background-repeat: no-repeat;margin-bottom: 85px;}
+.container{display: flex;flex-wrap: wrap;align-items: center;}
+
+.meanu{text-align: right;flex: 1;color:black;
+}
+.meanu ul li a:hover{color: white;}
+
+.meanu ul li{display: inline-block;list-style-type: none;margin-top: 10px;}
+
+.meanu ul li a{cursor: pointer;margin-right: 15px;font-size: 18px;color: black;text-decoration: none;}
+
+.header{text-align: center;margin-top: 160px;line-height: 35px;font-size: 26px;color: rgba(255, 255, 255, 0.904);}
+
+.about{display: flex;flex-wrap: wrap;overflow: hidden;}
+
+.my{flex-basis: 50%;padding:15px ;align-items: center;}
+.my img{min-width: 300px;width: 100%;}
+
+.rating{color:rgb(253, 83, 4);margin: 15px;}
+
+
+.hireme{background-color:#7caa5a;border-radius: 40px;padding: 10px 30px;color: rgb(230, 230, 230);border-color: #96bb7c;text-decoration: none;margin-bottom: 20px;display: inline-block;}
+
+
+.hireme:hover{background-color: #a2c48a;}
+
+
+.btn {text-decoration: none;background-color: rgba(0, 0, 0, 0.5);color: white;padding: 10px 20px;border-radius: 40px;}
+
+.btn:hover{background-color: rgba(0, 0, 0, 0.7);}
+
+.prolist{text-align: center;margin-bottom: 40px;}
+
+.services{margin-top: 205px;font-size: 30px;}
+
+.row{display: inline;}
+.prolist a{margin-left: 5%;text-decoration: none;color: rgba(0, 0, 0, 0.6);}
+.prolist a:hover{color: green;}
+
+.projects{text-align: center;margin-bottom: 40px;flex-basis:50%;align-items: center;padding: 0 1%;}
+.me{padding: 0 5px;}
+
+
+.projects img{min-width: 320px;width: 100%;}
+
+.projects img:hover::after{content: "Project 1";}
+
+.servi{justify-content: center;}
+
+.service{flex-basis: 26%;text-align: center;padding: 60px 60px;border: 1px solid rgba(128, 128, 128, 0.651);margin: 15px;font-size: 17px;}
+
+.service p{color: gray;}
+
+.service h1{color: rgba(45, 192, 45, 0.603);margin-bottom: 7px;}
+
+.resume{text-align: right;display: block;min-width: 300px;color: gray;}
+
+
+.res{line-height: 19px}
+
+
+.colm{width: 100%;}
+
+form{margin:5px 0px 15px 0;line-height: 45px;color: gray;font-size: 16px;}
+form input{border-top: transparent;border-left: transparent;border-right: transparent;margin-right: 10px;font-size: 15px;width: 34%;min-width: 101px;}
+
+form input:hover{border-color: rgb(28, 199, 28);}
+.messg{padding-bottom: 125px;}
+
+.cont{padding-left: 103px;}
+
+.icon{color: green;font-size: 19px;line-height: 50px;}
+.contactinfo{padding: 20px 15%;}
+
+footer{text-align: center;background: rgba(0, 0, 0, 0.8);padding: 10px 0;}
+

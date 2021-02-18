@@ -1,0 +1,16 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.btn{padding: 22px;color: rgb(255, 255, 255);background-color: transparent;font-size: 20px;box-shadow: black 5px 5px 5px;}
+
+body{background-image: url(../img/wall\ -\ Copy.jpg);background-size: cover;
+    background-repeat: no-repeat;background-attachment: fixed;line-height: 75px;text-align: center;}
+
+
+.text {padding: 11px 40px;box-shadow: black 5px 5px 5px;}
+
+table{display: inline;}
+
+.btn:hover{color: rgb(0, 0, 0);}
+

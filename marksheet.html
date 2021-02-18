@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/marksheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    
+    </head>
+
+<body>
+    <div class="container">
+        <h1 class="">MarkSheet</h1>
+        <div class="row my-5">
+            <div class="col-4">
+                <label for="">E n g l i s h</label>
+                <input type="text"  id="english">
+                <label for="">U r d u</label>
+                <input type="text" id="urdu">
+                <label for="">M a t h</label>
+                <input type="text" id="math">
+                <label for="">C h e m i s t r y</label>
+                <input type="text" id="chem">
+                <label for="">P h y s i c e</label>
+                <input type="text" id="phy">
+<br> <br>
+                <button
+                    onclick="marksheet()">P R I N T</button>
+
+            </div>
+            <div class="col-8">
+                <table id="tbl"></table>
+            </div>
+          
+        </div>
+    </div>
+    <script>
+        function marksheet() {
+            var eng = parseInt(document.getElementById("english").value)
+            var urd = parseInt(document.getElementById("urdu").value)
+            var math = parseInt(document.getElementById("math").value)
+            var chem = parseInt(document.getElementById("chem").value)
+            var phy = parseInt(document.getElementById("phy").value)
+
+            var obtain = eng + urd + math + chem + phy
+            var persent = obtain * 100 / 500
+
+            document.getElementById("tbl").innerHTML = "<tr><th>subjects</th><th>obtain marks</th><th>total marks</th></tr>"
+            document.getElementById("tbl").innerHTML += "<tr><td>English</td><td>" + eng + "</td><td>100</td></tr>"
+            document.getElementById("tbl").innerHTML += "<tr><td>Urdu</td><td>" + urd + "</td><td>100</td></tr>"
+            document.getElementById("tbl").innerHTML += "<tr><td>Math</td><td>" + math + "</td><td>100</td></tr>"
+            document.getElementById("tbl").innerHTML += "<tr><td>Chemistry</td><td>" + chem + "</td><td>100</td></tr>"
+            document.getElementById("tbl").innerHTML += "<tr><td>Physice</td><td>" + phy + "</td><td>100</td></tr>"
+            document.getElementById("tbl").innerHTML += "<tr><td>Obtain marks</td><td>" + obtain + "</td><td>500</td></tr>"
+            document.getElementById("tbl").innerHTML += "<tr><td>Persent</td><td>" + persent + "%</td><td>100%</td></tr>"
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+*{margin: 0%;
+padding: 0%;
+box-sizing: border-box;}
+
+body{background-color:black;font-family: 'Lobster', cursive;
+}
+
+form{color: black;
+background-color: white;padding: 10px;margin: 15px;height: 59vh;width: 98%;background-image: url(../img/download.jpg);background-size: cover;;}
+
+
+::placeholder{color: white;}
+button{width: 100%;padding: 10px;background-color:green;}
+
+a{color:blue;text-decoration: none;padding: 5px;}
+
+.as{text-align: center;display: block;background-color: green;color: black;}
+input{width: 100%;padding: 5px;background-color: grey;}
+
+
+hr{border: 2px solid red;margin-bottom: 10px;}
